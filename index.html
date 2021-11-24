@@ -5,18 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | E-commerce product page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="Style.css">
+  <title>E-commerce product page</title>
 </head>
 <body>
 
-  Collections
+<main>
+  <div class="container"> <!--This class keeps the page at 80% width of the screen-->
+    
+    <nav>
+      <div class="right-side-nav">
+        <div class="logo">
+          sneakers
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="left-side-nav">
+        <img src="images/icon-cart.svg" alt="cart" class="cart">
+        <img src="images/image-avatar.png" alt="user-profile" class="avatar">
+      </div>
+    </nav>
+
+  </div>
+</main>
+  <!-- Collections
   Men
   Women
   About
@@ -34,11 +54,6 @@
   $250.00
 
   0
-  Add to cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  Add to cart -->
 </body>
 </html>
