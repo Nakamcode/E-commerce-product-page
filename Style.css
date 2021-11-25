@@ -32,12 +32,17 @@ nav{
 .nav-links ul li{
     display: inline;
     padding: 0 10px;
-    
+    cursor: pointer;
+}
+.nav-links ul li:hover{
+    border-bottom: 3px solid hsl(26, 100%, 55%);
+    padding-bottom: 36px;
 }
 .logo{
     font-weight: bolder;
     font-size: 1.3em;
     margin-right: 20px;
+    cursor: pointer;
 }
 .avatar{
     width: 32px;
@@ -45,4 +50,44 @@ nav{
 }
 .cart{
     width: 20px;
+}
+.showcase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px;
+}
+.img-container{
+    /* position: relative;
+    width: 100px; */
+}
+.img-container img{
+    width: 500px;
+    border-radius: 30px;
+}
+.product-info{
+    margin-left: 50px;
+}
+.product-info h1{
+    font-size: 3em;
+    margin: 10px 0 20px 0;
+}
+.product-info h3{
+    color: hsl(26, 100%, 55%);
+}
+.product-info p{
+    padding:20px 0;
+}
+.price-info{
+    padding: 20px 0;
+}
+button{
+    background-color: hsl(26, 100%, 55%);
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 30px;
 }
